@@ -26,18 +26,20 @@ body{
 }
 /******intro-section*****/
 
-.homepage{
-    gap: 10px;
-}
+
 
 .heading-title{
     color:#fff;
     font-weight:600;
+    display: flex;
+    justify-content:right;
     
 }
 
 .sub-text{
     color: #fff;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .Register{
