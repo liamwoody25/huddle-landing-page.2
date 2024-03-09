@@ -13,9 +13,7 @@ body{
 
 }
 
-.main-container{
- 
-}
+
 
 
 
@@ -25,23 +23,27 @@ body{
     margin-left: 50px;
 }
 /******intro-section*****/
-
 .intro-container{
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-container img{
+    padding-left: 4%;
+    padding-top: 2%;
 }
 
 .heading-title{
     color:#fff;
-    font-weight:600;
-    display: flex;
-    justify-content:right;
+    font-weight:700;
     
 }
 
 .sub-text{
     color: #fff;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 400;
+    line-height: 30px;
+    
 }
 
 .Register{
@@ -52,11 +54,11 @@ body{
   color: var(--main-color);
   font-size: medium;
   font-weight: 400;
-  padding: 15px 20px;
-  display: flex;
-
+  padding: 15px 15px;
+  height: 60%;
+  width: 30%;
 }
-
+/*******footer******/
 .icons{
     display: flex;
     justify-content: right;
