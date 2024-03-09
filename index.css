@@ -26,6 +26,10 @@ body{
 }
 /******intro-section*****/
 
+.homepage{
+    gap: 10px;
+}
+
 .heading-title{
     color:#fff;
     font-weight:600;
@@ -46,7 +50,6 @@ body{
   font-weight: 400;
   padding: 15px 20px;
   display: flex;
-  justify-content: space-around;
 
 }
 
