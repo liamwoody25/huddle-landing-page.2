@@ -72,4 +72,8 @@ body{
 }
 
 
-
+.Frontend{
+    color: #fff;
+    font-size:small;
+    display: flex;
+}
