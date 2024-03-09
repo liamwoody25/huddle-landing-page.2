@@ -1,0 +1,66 @@
+:root{
+    --main-color: hsl(257, 40%, 49%);
+    --secondary-color: hsl(300, 69%, 71%);
+}
+
+* {
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color: var(--main-color);
+
+}
+
+.main-container{
+ 
+}
+
+
+
+.logo{
+    width: 15%;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+/******intro-section*****/
+
+.heading-title{
+    color:#fff;
+    font-weight:600;
+    
+}
+
+.sub-text{
+    color: #fff;
+}
+
+.Register{
+  background-color:#fff ;
+  font-family:'poppins';
+  border-radius: 25px;
+  height: 50px;
+  border:0;
+  color: var(--main-color);
+  padding: 20px 40px;
+
+}
+
+.icons{
+
+}
+
+.facebook{
+    color:#fff;
+}
+
+.twitter{
+    color: #fff;
+}
+
+.instagram{
+    color: #fff;
+    border-radius: 25px;
+}
+
