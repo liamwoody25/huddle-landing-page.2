@@ -48,19 +48,28 @@ body{
 }
 
 .icons{
-
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    align-items: flex-end;
+    padding-right: 5%;
 
 }
 
 .facebook{
     color:#fff;
+    font-size:20px;
 }
 
 .twitter{
     color: #fff;
+    font-size: 20px;
 }
 
 .instagram{
     color: #fff;
+    font-size: 20px;
 }
+
+
 
