@@ -22,6 +22,7 @@ body{
 .intro-container{
     display: flex;
     justify-content: space-between;
+    align-content: space-around;
 }
 
 .intro-container img{
@@ -31,9 +32,10 @@ body{
 
 .heading-title{
     color:#fff;
-    font-weight:700;
-    display: flex;
-    
+    font-weight:600;
+    font-size: 35px;
+    white-space: 10px;
+
 }
 
 .sub-text{
@@ -42,21 +44,22 @@ body{
     line-height: 30px;
     display: flex;
     align-items: center;
-    justify-self: stretch;
+    font-size: 18px;
     
 }
 
 .Register{
   background-color:#fff;
-  font-family:'poppins';
   border-radius: 25px;
   border:0;
   color: var(--main-color);
-  font-size: medium;
+  font-size: 18px;
   font-weight: 400;
   padding: 15px 15px;
   height: 60%;
   width: 30%;
+
+
 }
 /*******footer******/
 .icons{
@@ -70,17 +73,18 @@ body{
 
 .facebook{
     color:#fff;
-    font-size:20px;
+    font-size:25px;
+    gap:5px;
 }
 
 .twitter{
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .instagram{
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
