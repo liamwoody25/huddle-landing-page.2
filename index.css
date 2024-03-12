@@ -16,6 +16,7 @@ body{
 
 .main-container{
     max-width: 1440px;
+    min-width: 375px;
     width: fit-content;
 }
 /*******header****/
@@ -70,7 +71,6 @@ body{
     gap: 20px;
     align-items: flex-end;
     padding-right: 5%;
-
 }
 
 .facebook{
