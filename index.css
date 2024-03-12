@@ -12,7 +12,10 @@ body{
     display: flex;
     background-image: url(./images/bg-desktop.svg);
     background-color: var(--main-color);
+}
 
+.main-container{
+    max-width: 1440px;
 }
 /*******header****/
 .logo{
@@ -34,17 +37,15 @@ body{
     color:var(--color-white);
     font-weight:600;
     font-size: 35px;
-    padding-left: 25px;
+    padding-left: 5%;
 
 }
 
 .text{
     color:var(--color-white);
     font-weight: 400;
-    line-height: 30px;
-    padding-left: 25px;
+    padding-left: 5%;
     font-size: 15px;
-    
 }
 
 .Register{
@@ -59,7 +60,6 @@ body{
   width: 30%;
   box-shadow: 0.5px 5px 9px rgb(62, 61, 61);
   margin-left:25px ;
-
 }
 /*******footer******/
 .icons{
