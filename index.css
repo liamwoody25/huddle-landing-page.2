@@ -9,7 +9,7 @@
 }
 
 body{
-    max-width: 1440px;
+    display: flex;
     background-image: url(./images/bg-desktop.svg);
     background-color: var(--main-color);
 
@@ -23,8 +23,6 @@ body{
 /******intro-section*****/
 .intro-container{
     display: flex;
-    justify-content: space-between;
-    align-content: space-around;
 }
 
 .intro-container img{
