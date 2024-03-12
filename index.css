@@ -16,6 +16,7 @@ body{
 
 .main-container{
     max-width: 1440px;
+    width: fit-content;
 }
 /*******header****/
 .logo{
@@ -29,8 +30,10 @@ body{
 }
 
 .intro-container img{
+    display: flex;
+    width: 80%;
     padding-left: 4%;
-    padding-top: 2%;
+    padding-top: 4%;
 }
 
 .heading-title{
@@ -55,11 +58,10 @@ body{
   color: var(--main-color);
   font-size: 17px;
   font-weight: 300;
-  padding: 12px 15px;
   height: 10%;
   width: 30%;
   box-shadow: 0.5px 5px 9px rgb(62, 61, 61);
-  margin-left:25px ;
+  margin-left:25px;
 }
 /*******footer******/
 .icons{
