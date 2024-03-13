@@ -73,8 +73,7 @@ body{
     display: flex;
     justify-content: right;
     gap: 20px;
-    align-items: flex-end;
-    padding-right: 5%;
+    padding-right: 5%;align-self: baseline;
 }
 
 .facebook{
@@ -98,6 +97,7 @@ body{
     color: var(--color-white);
     font-size:small;
     display: flex;
+    justify-content: center;
 }
 
 .text-styling{
