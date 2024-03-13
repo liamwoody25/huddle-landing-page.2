@@ -9,10 +9,10 @@
 }
 
 body{
-    display: flex;
     background-image: url(./images/bg-desktop.svg);
     background-color: var(--main-color);
     font-family: 'open-sans',sans-serif;
+    width: fit-content;
 }
 
 .main-container{
@@ -22,7 +22,7 @@ body{
 /*******header****/
 .logo{
     width: 15%;
-    padding-top: 50px;
+    padding-top: 39px;
     margin-left: 50px;
 }
 /******intro-section*****/
@@ -32,7 +32,7 @@ body{
 
 .intro-container img{
     width: 60%;
-    padding-left:4%;
+    padding-left:6%;
     padding-top: 4%;
     margin-top: 0%;
 }
@@ -43,14 +43,15 @@ body{
     font-size: 39px;
     padding-left: 8%;
     padding-top:40px;
+    text-align: inherit;
 
 }
 
 .intro-text{
     color: var(--color-white);
-    font-weight: 400;
+    font-weight: 300;
     padding-left: 8%;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 20px;
     margin-bottom:5%;
 }
