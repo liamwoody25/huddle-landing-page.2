@@ -39,8 +39,8 @@ body{
 
 .intro-title{
     color:var(--color-white);
-    font-weight:500;
-    font-size: 39px;
+    font-weight:600;
+    font-size: 40px;
     padding-left: 8%;
     padding-top:40px;
 
@@ -48,7 +48,7 @@ body{
 
 .intro-text{
     color:var(--color-white);
-    font-weight: 400;
+    font-weight: 500;
     padding-left: 8%;
     font-size: 15px;
 }
