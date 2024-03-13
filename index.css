@@ -6,24 +6,23 @@
 
 * {
     font-family: 'poppins',sans-serif;
-    font-family: 'open-sans',sans-serif;
 }
 
 body{
     display: flex;
     background-image: url(./images/bg-desktop.svg);
     background-color: var(--main-color);
+    font-family: 'open-sans',sans-serif;
 }
 
 .main-container{
+    width: 100%;
     max-width: 1440px;
-    min-width: 375px;
-    width: fit-content;
 }
 /*******header****/
 .logo{
     width: 15%;
-    padding-top: 55px;
+    padding-top: 50px;
     margin-left: 50px;
 }
 /******intro-section*****/
@@ -32,24 +31,28 @@ body{
 }
 
 .intro-container img{
+    width: 60%;
     padding-left:4%;
     padding-top: 4%;
+    margin-top: 0%;
 }
 
 .intro-title{
     color:var(--color-white);
     font-weight:600;
-    font-size: 40px;
+    font-size: 39px;
     padding-left: 8%;
     padding-top:40px;
 
 }
 
 .intro-text{
-    color:var(--color-white);
-    font-weight: 500;
+    color: var(--color-white);
+    font-weight: 400;
     padding-left: 8%;
-    font-size: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom:5%;
 }
 
 .Register{
