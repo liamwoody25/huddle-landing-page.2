@@ -23,7 +23,7 @@ body{
 /*******header****/
 .logo{
     width: 15%;
-    padding-top: 40px;
+    padding-top: 55px;
     margin-left: 50px;
 }
 /******intro-section*****/
@@ -38,15 +38,16 @@ body{
     padding-top: 4%;
 }
 
-.heading-title{
+.intro-title{
     color:var(--color-white);
     font-weight:600;
-    font-size: 35px;
+    font-size: 39px;
     padding-left: 5%;
+    padding-top:40px;
 
 }
 
-.text{
+.intro-text{
     color:var(--color-white);
     font-weight: 400;
     padding-left: 5%;
