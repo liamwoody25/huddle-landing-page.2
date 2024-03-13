@@ -32,7 +32,6 @@ body{
 }
 
 .intro-container img{
-    display: flex;
     width: 80%;
     padding-left: 4%;
     padding-top: 4%;
@@ -40,9 +39,9 @@ body{
 
 .intro-title{
     color:var(--color-white);
-    font-weight:600;
+    font-weight:500;
     font-size: 39px;
-    padding-left: 5%;
+    padding-left: 8%;
     padding-top:40px;
 
 }
@@ -50,7 +49,7 @@ body{
 .intro-text{
     color:var(--color-white);
     font-weight: 400;
-    padding-left: 5%;
+    padding-left: 8%;
     font-size: 15px;
 }
 
@@ -64,7 +63,7 @@ body{
   height: 10%;
   width: 30%;
   box-shadow: 0.5px 5px 9px rgb(62, 61, 61);
-  margin-left:25px;
+  margin-left:8%;
 }
 /*******footer******/
 .icons{
