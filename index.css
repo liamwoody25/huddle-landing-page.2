@@ -17,7 +17,7 @@ body{
 
 .main-container{
     width: 100%;
-    max-width: 1440px;
+    min-width: 1440px;
 }
 /*******header****/
 .logo{
@@ -31,8 +31,8 @@ body{
 }
 
 .intro-container img{
-    width: 60%;
-    padding-left:6%;
+    width: 90%;
+    padding-left:4%;
     padding-top: 4%;
 }
 
