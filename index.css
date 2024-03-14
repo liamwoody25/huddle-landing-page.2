@@ -16,7 +16,9 @@ body{
 
 .main-container{
     width: 100%;
-    min-width: 1440px;
+    min-width: ;
+    max-width: 1440px;
+    width: fit-content;
 }
 /*******header****/
 .logo{
@@ -29,8 +31,8 @@ body{
     display: flex;
 }
 
-.intro-container img{
-    width: 90%;
+.intro-img{
+    width: 50%;
     padding-left:4%;
     padding-top: 4%;
 }
@@ -41,7 +43,6 @@ body{
     font-size: 39px;
     padding-left: 8%;
     padding-top:40px;
-    text-align: inherit;
 
 }
 
@@ -50,7 +51,6 @@ body{
     font-weight: 300;
     padding-left: 8%;
     font-size: 16px;
-    margin-top: 20px;
     margin-bottom:5%;
 }
 
