@@ -16,12 +16,11 @@ body{
 
 .main-container{
     width: 100%;
-    max-width: 1440px;
-    width: fit-content;
+
+    max-width:fit-content;
 }
 /*******header****/
 .logo{
-    
     width: 15%;
     padding-top: 39px;
     margin-left: 50px;
@@ -29,10 +28,11 @@ body{
 /******intro-section*****/
 .intro-container{
     display: flex;
+    max-width: 100%;
 }
 
 .intro-container img{
-    width: 50%;
+    min-width:;
     padding-left:4%;
     padding-top: 50px;
 }
