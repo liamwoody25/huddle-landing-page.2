@@ -102,11 +102,15 @@ body{
     text-decoration: none;
 }
 
-@media screen and (max-width:1440px){
+@media screen and (max-width:375px){
     body{
-        max-width:100%;
+      max-width:375px;
+    }
+    .logo{
+        width: 15%;
     }
     .intro-container img{
+        object-fit: contain;
         max-width: 100%;
     }
 }
