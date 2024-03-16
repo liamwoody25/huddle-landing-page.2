@@ -102,15 +102,18 @@ body{
     text-decoration: none;
 }
 
-@media screen and (max-width:375px){
+@media only screen and (max-width: 375px){
     body{
-      max-width:375px;
+      max-width:1440px;
     }
     .logo{
-        max-width: 20%;
+        width: 20px;
     }
-    .img{
-        width: 50px;
-        max-width: 100%;
+    .intro-container{
+    display: flex;
+    }
+    .intro-container img{
+        width: auto;
+        max-width:100%;
     }
 }
