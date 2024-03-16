@@ -106,14 +106,16 @@ body{
     body{
       max-width:1440px;
     }
+
     .logo{
         width: 20px;
     }
+
     .intro-container{
-    display: flex;
+        width: 50%;
     }
+
     .intro-container img{
-        width: auto;
         max-width:100%;
     }
 }
