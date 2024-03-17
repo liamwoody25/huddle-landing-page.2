@@ -43,6 +43,7 @@ body{
     font-size:3em;
     padding-left: 8%;
     padding-top:40px;
+    margin-bottom: 3%;
 
 }
 
@@ -117,12 +118,12 @@ body{
     }
 
     .intro-container img{
-       width: 500%;
+       max-width: 50%;
        position: absolute;
     }
 
     .intro-title{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .intro-text{
