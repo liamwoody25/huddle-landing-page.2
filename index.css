@@ -40,7 +40,7 @@ body{
 .intro-title{
     color:var(--color-white);
     font-weight:600;
-    font-size: 39px;
+    font-size:3em;
     padding-left: 8%;
     padding-top:40px;
 
@@ -50,7 +50,7 @@ body{
     color: var(--color-white);
     font-weight: 300;
     padding-left: 8%;
-    font-size: 16px;
+    font-size: 0.9em;
     margin-bottom:5%;
 }
 
