@@ -121,6 +121,14 @@ body{
        position: absolute;
     }
 
+    .intro-title{
+        font-size: 3em;
+    }
+
+    .intro-text{
+        margin-top: 15%;
+    }
+
     .icons{
         position: relative;
     }
