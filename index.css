@@ -48,10 +48,10 @@ body{
 
 .intro-text{
     color: var(--color-white);
-    font-weight: 300;
+    font-weight: 400;
     padding-left: 8%;
     font-size: 0.9em;
-    margin-bottom:5%;
+    margin-bottom:3%;
 }
 
 .Register {
@@ -109,7 +109,7 @@ body{
     }
 
     .logo{
-        width: 20px;
+        width: 30%;
     }
 
     .intro-container{
@@ -117,7 +117,11 @@ body{
     }
 
     .intro-container img{
-       width: 50%;
+       width: 500%;
        position: absolute;
+    }
+
+    .icons{
+        position: relative;
     }
 }
