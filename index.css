@@ -102,8 +102,7 @@ body{
     text-decoration: none;
 }
 
-@media only screen and (max-width:428px){
-
+@media only screen and (max-width:375px){
     .main-container{
         max-width: 1440px;
     }
@@ -113,14 +112,11 @@ body{
     }
 
     .intro-container{
-        max-width: 1440px;
     }
 
     .intro-container img{
-        width: fit-content;
         position: absolute;
-        width: 50%;
-        height: auto;
+        max-width: 150%;
         padding-top: 10%;
     }
 
