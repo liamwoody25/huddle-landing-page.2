@@ -15,8 +15,6 @@ body{
 }
 
 .main-container{
-    width:100%;
-
     max-width:1440px;
 }
 /*******header****/
@@ -32,7 +30,7 @@ body{
 }
 
 .intro-container img{
-    max-width:100%;
+    width:50%;
 
     padding-left:4%;
     padding-top: 50px;
@@ -104,7 +102,7 @@ body{
     text-decoration: none;
 }
 
-@media only screen and (max-width:375px){
+@media only screen and (max-width:428px){
 
     .main-container{
         max-width: 1440px;
@@ -119,8 +117,10 @@ body{
     }
 
     .intro-container img{
+        width: fit-content;
         position: absolute;
         width: 50%;
+        height: auto;
         padding-top: 10%;
     }
 
