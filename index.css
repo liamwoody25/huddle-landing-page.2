@@ -118,7 +118,7 @@ body{
 
     .intro-container img{
        position:absolute;
-        max-width: 100%;
+       max-width: 80%;
 
     }
 
@@ -130,6 +130,7 @@ body{
 
     .intro-text{
         margin-top: 15%;
+        justify-content: center;
     }
 
     .icons{
