@@ -32,8 +32,7 @@ body{
 }
 
 .intro-container img{
-    width:100%;
-    height: auto;
+    max-width:100%;
 
     padding-left:4%;
     padding-top: 50px;
@@ -116,12 +115,10 @@ body{
     }
 
     .intro-container{
-        display: flex;
     }
 
     .intro-container img{
-       position:absolute;
-       max-width: 100%;
+       width: 100%;
        padding-top: 10%;
     }
 
