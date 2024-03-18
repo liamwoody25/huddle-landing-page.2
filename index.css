@@ -103,10 +103,9 @@ body{
     text-decoration: none;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width:375px){
     body{
       max-width:1440px;
-
     }
 
     .logo{
@@ -114,16 +113,19 @@ body{
     }
 
     .intro-container{
-        width: 50%;
+        display: flex;
     }
 
     .intro-container img{
-       max-width: 50%;
-       position: absolute;
+       position:absolute;
+        max-width: 100%;
+
     }
 
     .intro-title{
-        font-size: 2em;
+        font-size: 2rem;
+        margin-bottom: 5%;
+
     }
 
     .intro-text{
@@ -131,6 +133,6 @@ body{
     }
 
     .icons{
-        position: relative;
+        display: flex;
     }
 }
