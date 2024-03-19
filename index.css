@@ -30,7 +30,7 @@ body{
 }
 
 .intro-container img{
-    width:50%;
+    max-width:100%;
 
     padding-left:4%;
     padding-top: 50px;
@@ -102,21 +102,22 @@ body{
     text-decoration: none;
 }
 
-@media only screen and (max-width:375px){
-    .main-container{
+@media only screen and (max-width:428px){
+    body {
         max-width: 1440px;
     }
 
     .logo{
-        width: 30%;
+        width: 40%;
     }
 
     .intro-container{
+        max-width:100%;
     }
 
     .intro-container img{
         position: absolute;
-        max-width: 150%;
+        max-width: 80%;
         padding-top: 10%;
     }
 
