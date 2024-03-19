@@ -26,12 +26,11 @@ body{
 /******intro-section*****/
 .intro-container{
     display: flex;
-    max-width: 100%;
+    width: 100%;
 }
 
 .intro-container img{
     max-width:100%;
-
     padding-left:4%;
     padding-top: 50px;
 }
@@ -39,7 +38,7 @@ body{
 .intro-title{
     color:var(--color-white);
     font-weight:600;
-    font-size:3em;
+    font-size:3rem;
     padding-left: 8%;
     padding-top:40px;
     margin-bottom: 3%;
@@ -50,7 +49,7 @@ body{
     color: var(--color-white);
     font-weight: 400;
     padding-left: 8%;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     margin-bottom:3%;
 }
 
@@ -102,7 +101,7 @@ body{
     text-decoration: none;
 }
 
-@media only screen and (max-width:428px){
+@media only screen and (max-width:375px){
     body {
         max-width: 1440px;
     }
