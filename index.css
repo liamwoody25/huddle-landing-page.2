@@ -105,7 +105,7 @@ body{
     body {
         max-width: 1440px;
     }
-
+    
     .logo{
         width: 40%;
     }
@@ -115,9 +115,11 @@ body{
     }
 
     .intro-container img{
-        position: absolute;
+        display: flex;
         max-width: 80%;
         padding-top: 10%;
+        background-size: cover;
+        position: absolute;
     }
 
     .intro-title{
@@ -127,14 +129,15 @@ body{
     }
 
     .intro-text{
+        display: flex;
         margin-top: 15%;
         padding-top:2%;
-        font-size: 1rem;
-
+        font-size: 0.8rem;
+        justify-content: center;
     }
 
     .Register{
-        
+        width: 30%;
     }
 
     .icons{
