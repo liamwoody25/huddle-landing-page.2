@@ -13,10 +13,10 @@ body{
     background-image: url(./images/bg-desktop.svg);
     background-color: var(--main-color);
     font-family: 'open-sans',sans-serif;
-    display: flex;
 }
 
 .main-container{
+    width: fit-content;
     width:1440px;
     box-sizing: border-box;
 }
@@ -35,7 +35,7 @@ body{
     max-width:100%;
     padding-left:4%;
     padding-top: 50px;
-    height: auto;
+    position: absolute;
 }
 
 .intro-title{
