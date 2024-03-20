@@ -106,9 +106,11 @@ body{
 }
 
 /***** media query mobile********/
-@media only screen and (max-width:400px){
+@media only screen and (max-width:500px){
+
     .main-container{
-        max-width: 1440px;
+        width: 100%;
+        max-width: 1024px;
     }
 
     .logo{
@@ -129,6 +131,7 @@ body{
     }
 
     .intro-title{
+        text-align: center;
         font-size: 32px;
         margin-bottom: 5%;
         padding-right: 10%;
@@ -136,6 +139,7 @@ body{
     }
 
     .intro-text{
+        text-align: center;
         margin-top: 15%;
         padding-top:2%;
         font-size: 19px;
