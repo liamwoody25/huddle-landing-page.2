@@ -38,7 +38,7 @@ body{
 .intro-title{
     color:var(--color-white);
     font-weight:600;
-    font-size:3rem;
+    font-size:3em;
     padding-left: 8%;
     padding-top:40px;
     margin-bottom: 3%;
@@ -117,12 +117,11 @@ body{
     .intro-container img{
         max-width: 80%;
         padding-top: 10%;
-        background-size: cover;
         position: absolute;
     }
 
     .intro-title{
-        font-size: 2rem;
+        font-size: 1em;
         margin-bottom: 5%;
 
     }
