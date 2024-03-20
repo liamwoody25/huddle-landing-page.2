@@ -26,7 +26,8 @@ body{
 /******intro-section*****/
 .intro-container{
     display: flex;
-   max-width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .intro-container img{
@@ -102,7 +103,7 @@ body{
 }
 
 @media only screen and (max-width:400px){
-    body {
+    .main-container{
         max-width: 1440px;
     }
 
@@ -111,13 +112,12 @@ body{
     }
 
     .intro-container{
-        width:100%;
+        max-width:100%;
     }
 
     .intro-container img{
-        max-width: 80%;
+        width: 100%;
         padding-top: 10%;
-        position: absolute;
     }
 
     .intro-title{
@@ -130,7 +130,7 @@ body{
         display: flex;
         margin-top: 15%;
         padding-top:2%;
-        font-size: 0.8rem;
+        font-size: 0.8em;
         justify-content: center;
     }
 
