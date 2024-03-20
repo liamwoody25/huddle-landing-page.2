@@ -6,16 +6,19 @@
 
 * {
     font-family: 'poppins',sans-serif;
+    font-family: 'open-sans',sans-serif;
 }
 
 body{
     background-image: url(./images/bg-desktop.svg);
     background-color: var(--main-color);
     font-family: 'open-sans',sans-serif;
+    display: flex;
 }
 
 .main-container{
-    max-width:1440px;
+    width:1440px;
+    box-sizing: border-box;
 }
 /*******header****/
 .logo{
@@ -26,14 +29,13 @@ body{
 /******intro-section*****/
 .intro-container{
     display: flex;
-    max-width: 100%;
-    height: auto;
 }
 
 .intro-container img{
     max-width:100%;
     padding-left:4%;
     padding-top: 50px;
+    height: auto;
 }
 
 .intro-title{
@@ -108,7 +110,7 @@ body{
     }
 
     .logo{
-        width: 40%;
+        width: 50%;
     }
 
     .intro-container{
